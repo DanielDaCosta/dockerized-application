@@ -1,0 +1,11 @@
+dash
+dash-renderer
+dash-core-components
+dash-html-components
+dash-table
+plotly
+numpy
+pandas
+scipy
+matplotlib
+seaborn
