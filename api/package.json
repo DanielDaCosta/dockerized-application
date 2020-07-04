@@ -1,0 +1,17 @@
+{
+  "name": "docker-intro-api",
+  "version": "1.0.0",
+  "description": "Working with docker",
+  "main": "index.js",
+  "scripts": {
+    "test": "teste"
+  },
+  "keywords": [
+    "Docker"
+  ],
+  "author": "Daniel da Costa",
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^2.0.4"
+  }
+}
