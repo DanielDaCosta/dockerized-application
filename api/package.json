@@ -4,7 +4,8 @@
   "description": "Working with docker",
   "main": "index.js",
   "scripts": {
-    "test": "teste"
+    "test": "test",
+    "start": "nodemon ./src/index"
   },
   "keywords": [
     "Docker"
@@ -13,5 +14,9 @@
   "license": "ISC",
   "devDependencies": {
     "nodemon": "^2.0.4"
+  },
+  "dependencies": {
+    "express": "^4.17.1",
+    "mysql": "^2.18.1"
   }
 }
