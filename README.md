@@ -10,10 +10,10 @@
  
  # Usage
  
- **Code**
+ ## Code
  Go into the folde ./api and run `npm install`
  
-**Building Images and Containers**
+## Building Images and Containers
 Run:
 
 ```docker-compose up -d```
