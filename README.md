@@ -9,18 +9,20 @@
  The main goal of this repo is to get an understanding of how dockerized applications work and also, how to set up a database using docker.
  
  # Usage
+
+**Code**
+
+Go into the folder `./api` and run `npm install`
  
- ## Code
- Go into the folder `./api` and run `npm install`
- 
-## Building Images and Containers
+**Building Images and Containers**
+
 Run:
 
 ```docker-compose up -d```
 
 This command will create two containers: *mysql-container* and *node-container*.
 
-## Details
+# Details
 You can check for logs using: ```docker logs node-container```
 
 # Acknowlegments
