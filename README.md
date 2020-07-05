@@ -11,7 +11,7 @@
  # Usage
  
  ## Code
- Go into the folde ./api and run `npm install`
+ Go into the folder `./api` and run `npm install`
  
 ## Building Images and Containers
 Run:
