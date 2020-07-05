@@ -20,7 +20,7 @@ Run:
 
 This command will create two containers: *mysql-container* and *node-container*.
 
-**Details**
+## Details
 You can check for logs using: ```docker logs node-container```
 
 # Acknowlegments
