@@ -4,7 +4,7 @@ const mysql = require('mysql');
 const app = express();
 
 const connection = mysql.createConnection({
-  host: '172.17.0.2',
+  host: 'mysql-container',
   user: 'root',
   password: 'teste123',
   database: 'daniel_mysql'
@@ -13,14 +13,16 @@ const connection = mysql.createConnection({
 connection.connect();
 
 app.get('/products', function(req, res) {
-  connection.query('SELECT * FROM employees;', function (error, results) {
+  connection.query('SELECT * FROM products', function (error, results) {
+
     if (error) { 
       throw error
     };
-    res.send(results.map(item => ({ name: item.first_name, price: item.email })));
-    // connection.end();
+
+    res.send(results.map(item => ({ name: item.name, price: item.price })));
   });
 });
+
 
 app.listen(9001, '0.0.0.0', function() {
   console.log('Listening on port 9001');

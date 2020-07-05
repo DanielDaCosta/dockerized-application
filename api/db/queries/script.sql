@@ -1,6 +1,12 @@
-CREATE TABLE employees (
-first_name varchar(25),
-last_name  varchar(25),
-department varchar(15),
-email  varchar(50)
+CREATE DATABASE IF NOT EXISTS daniel_mysql;
+USE daniel_mysql;
+
+CREATE TABLE IF NOT EXISTS products (
+  id INT(11) AUTO_INCREMENT,
+  name VARCHAR(255),
+  price DECIMAL(10, 2),
+  PRIMARY KEY (id)
 );
+
+INSERT INTO products VALUE(0, 'Curso Front-end especialista', 2500);
+INSERT INTO products VALUE(0, 'Curso JS Fullstack', 900);
