@@ -1,4 +1,4 @@
-# dockerized-application
+# Dockerizing a web application
  
  Dockerizing a web application using:
  
