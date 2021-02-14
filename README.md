@@ -1,5 +1,4 @@
 # Dockerizing a web application
- 
  Dockerizing a web application using:
  
  - node.js-v10
@@ -26,7 +25,6 @@ This command will create two containers: *mysql-container* and *node-container*.
 You can check for logs using: ```docker logs node-container```
 
 # Acknowlegments
-
 Special thanks to the YouTube channel: programadorabord.
 
 - https://www.youtube.com/watch?v=Kzcz-EVKBEQ&t=763s
