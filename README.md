@@ -24,7 +24,7 @@ This command will create two containers: *mysql-container* and *node-container*.
 # Details
 You can check for logs using: ```docker logs node-container```
 
-# Acknowlegments
+# Acknowlegments & References
 Special thanks to the YouTube channel: programadorabord.
 
 - https://www.youtube.com/watch?v=Kzcz-EVKBEQ&t=763s
